@@ -19,7 +19,7 @@
 </style> -->
 
 <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100vh; background: linear-gradient(to bottom, #ff99cc, #ffff99); animation: fadeIn 2s ease-in-out;">
-<h1>you are hacked </h1>
+<h1>please wait </h1>
 
 </div>
 

